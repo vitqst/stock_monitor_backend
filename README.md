@@ -1,3 +1,12 @@
-# Strapi application
 
-A quick description of your strapi application
+# Strapi CMS
+
+# Quick start
+
+```
+yarn 
+
+yarn build
+
+yarn start
+```
