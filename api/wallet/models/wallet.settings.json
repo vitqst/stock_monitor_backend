@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wallets",
+  "info": {
+    "name": "wallet"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "volume": {
+      "type": "float"
+    }
+  }
+}
