@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/coin-followeds",
+      "handler": "coin-followed.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/coin-followeds/count",
+      "handler": "coin-followed.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/coin-followeds/:id",
+      "handler": "coin-followed.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/coin-followeds",
+      "handler": "coin-followed.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/coin-followeds/:id",
+      "handler": "coin-followed.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/coin-followeds/:id",
+      "handler": "coin-followed.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

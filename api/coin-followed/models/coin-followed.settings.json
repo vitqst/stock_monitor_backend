@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coin_followeds",
+  "info": {
+    "name": "coin_followed",
+    "description": ""
+  },
+  "options": {
+    "increments": false,
+    "timestamps": false,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "group_name": {
+      "type": "string"
+    },
+    "coins": {
+      "type": "json"
+    }
+  }
+}
